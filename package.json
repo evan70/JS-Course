@@ -1,0 +1,25 @@
+{
+  "name": "js-course",
+  "version": "1.0.0",
+  "description": "Pure Javascript Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evan70/JS-Course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "nodejs",
+    "webpack"
+  ],
+  "author": "evan70",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evan70/JS-Course/issues"
+  },
+  "homepage": "https://github.com/evan70/JS-Course#readme"
+}
