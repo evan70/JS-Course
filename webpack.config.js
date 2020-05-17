@@ -24,7 +24,7 @@ module.exports = {
             '@core': path.resolve(__dirname, 'src/core')
         }
     },
-    devtool: isDev ? 'source-map'
+    devtool: isDev && 'source-map',
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
