@@ -6,8 +6,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack",
-    "build": "webpack --mode production"
+    "start": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -25,9 +25,14 @@
     "url": "https://github.com/evan70/JS-Course/issues"
   },
   "homepage": "https://github.com/evan70/JS-Course#readme",
+  "browserslist": "> 0.25%, not dead",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.1",
+    "cross-env": "^7.0.2",
     "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
